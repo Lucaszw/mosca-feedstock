@@ -1,0 +1,21 @@
+{
+  "name": "mosca-feedstock",
+  "version": "1.0.0",
+  "description": "Conda Recipe for Mosca",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mosca",
+    "Conda",
+    "Recipe",
+    "Feedstock"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "yamljs": "^0.3.0"
+  }
+}

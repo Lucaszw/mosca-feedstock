@@ -1,0 +1,16 @@
+package:
+    name: mosca
+    version: VERSION
+source:
+    git_url: .
+requirements:
+    build:
+        - 'python 2.7*'
+        - nodejs
+    run:
+        - nodejs
+build:
+    script: 'npm i --global mosca'
+about:
+    home: 'https://github.com/mcollina/mosca'
+    license: MIT
